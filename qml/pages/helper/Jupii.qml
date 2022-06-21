@@ -18,7 +18,7 @@ Item {
     DBusInterface {
         id: jupiiPlayer
 
-        service: 'org.jupii'
+        service: 'org.mkiol.jupii'
         iface: 'org.jupii.Player'
         path: '/'
     }
