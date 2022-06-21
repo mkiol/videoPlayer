@@ -34,11 +34,19 @@
 #endif
 
 #include <sailfishapp.h>
+
+#include <QGuiApplication>
+#include <QQmlContext>
+#include <QQmlEngine>
+#include <QQuickItem>
+#include <QQuickView>
+#include <QQuickWindow>
+
 #include "DownloadManager.hpp"
 #include "fmhelper.hpp"
-#include "youtubedl-helper.hpp"
 #include "folderlistmodel/qquickfolderlistmodel.h"
 #include "playlist.h"
+#include "youtubedl-helper.hpp"
 
 int main(int argc, char *argv[])
 {
