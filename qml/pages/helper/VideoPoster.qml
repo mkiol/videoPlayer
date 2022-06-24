@@ -362,7 +362,7 @@ MouseArea {
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: Theme.paddingMedium
                 width: height
-                visible: jupii.found
+                visible: jupii.connected
                 height: Theme.iconSizeMedium
                 onClicked: {
                     jupii.addUrlOnceAndPlay(streamUrl.toString(), streamTitle, "", (onlyMusic.visible ? 1 : 2), "llsvplayer", "/usr/share/icons/hicolor/172x172/apps/harbour-videoPlayer.png")
